@@ -1,0 +1,64 @@
+#header{
+    background-color:rgb(133, 177, 234);
+    height:28px;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    text-align: center;
+    height:25px;   
+}
+li:hover{
+    background-color: blue;
+}
+.container{
+    margin-left: 75%;
+}
+a{  
+  text-decoration: none;
+}
+img{
+    position: relative;
+}
+#content{
+    position: absolute;
+}
+.footer{
+    height:100px;
+    background-color:rgb(133, 177, 234);
+    display: flex; 
+    justify-content: center;   
+}
+.footer a{
+    margin:15px;
+}
+body {
+    height: 100%;
+    overflow-y: hidden;
+    padding-top:0%;
+ }
+.con{
+right:300px;
+ }
+ .id{
+width:300px;
+height: 250px;
+border:black solid 20px;
+box-sizing: border-box;
+ }
+ #shoe{
+    position:absolute;
+    width:500px;
+    left:315px;
+ }
+ #solar{
+    position:absolute;
+    width:500px;
+    left:315px;
+ }
+ a:hover{
+    color:white;
+ }
+ #content{
+    color:blue
+ }
